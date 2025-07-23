@@ -8,8 +8,8 @@ def highlight(line, pattern):
 
 while True:
     try:
-        raw = input("regex (or 'q' to quit): ").strip()
-        if raw.lower() == 'q':
+        raw = input("regex (or '~' to quit): ").strip()
+        if raw.lower() == '~':
             break
 
         flags = 0
